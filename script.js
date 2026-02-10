@@ -5,8 +5,8 @@ document.addEventListener('DOMContentLoaded', () => {
   const burgerBtn = document.querySelector('.burger');
   const blackKey = document.querySelector('.burger__black-key');
 
-  const menuOpenSound = new Audio('/sounds/do.mp3');
-  const menuCloseSound = new Audio('/sounds/re.mp3');
+  const menuOpenSound = new Audio('sounds/do.mp3');
+  const menuCloseSound = new Audio('sounds/re.mp3');
 
   burgerBtn.addEventListener('click', () => {
     const isOpen = menu.classList.toggle('open');
