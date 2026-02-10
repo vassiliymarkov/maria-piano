@@ -3,8 +3,8 @@
 document.addEventListener('DOMContentLoaded', () => {
   let burgerBtn = document.querySelector('.burger');
 
-  let menuOpenSound = new Audio('/sounds/do.mp3');
-  let menuCloseSound = new Audio('/sounds/re.mp3');
+  let menuOpenSound = new Audio('sounds/do.mp3');
+  let menuCloseSound = new Audio('sounds/re.mp3');
 
   let burgerBar1 = document.getElementById('burger__bar-1');
   let burgerBar2 = document.getElementById('burger__bar-2');
