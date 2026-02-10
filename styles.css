@@ -252,7 +252,7 @@ a:hover {
 .hero {
   width: 100%;
   height: 100vh;
-  background-image: url("/hero-photo.webp");
+  background-image: url("hero-photo.webp");
   background-size: cover;
   background-position: center;
 }
